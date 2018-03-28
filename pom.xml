@@ -19,7 +19,6 @@
     </parent>
 
     <modules>
-        <module>scholar-web</module>
         <module>scholar-test</module>
         <module>scholar-integration</module>
         <module>scholar-facade</module>
@@ -28,6 +27,7 @@
         <module>scholar-common</module>
         <module>scholar-biz</module>
         <module>scholar-assemble</module>
+        <module>scholar-web</module>
     </modules>
 
     <properties>
