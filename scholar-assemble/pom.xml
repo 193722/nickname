@@ -17,6 +17,34 @@
     <name>scholar-assemble</name>
     <description>scholar project for Spring Boot</description>
 
+    <properties>
+        <deploy.skip>true</deploy.skip>
+        <start-class>clud.zen.scholar.ScholarAssembleApplication</start-class>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter</artifactId>
+            <version>2.0.0.RELEASE</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-configuration-processor</artifactId>
+            <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>clud.zen.scholar</groupId>
+            <artifactId>scholar-biz</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>clud.zen.scholar</groupId>
+            <artifactId>scholar-web</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+    </dependencies>
+
     <build>
         <finalName>scholar</finalName>
         <plugins>

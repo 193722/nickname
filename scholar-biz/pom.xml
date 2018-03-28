@@ -11,5 +11,23 @@
 
     <artifactId>scholar-biz</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>clud.zen.scholar</groupId>
+            <artifactId>scholar-dal</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>clud.zen.scholar</groupId>
+            <artifactId>scholar-domain</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>clud.zen.scholar</groupId>
+            <artifactId>scholar-common</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+    </dependencies>
+
 
 </project>
