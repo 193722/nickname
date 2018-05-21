@@ -25,6 +25,7 @@
         <module>scholar-common</module>
         <module>scholar-biz</module>
         <module>scholar-assemble</module>
+        <module>scholar-apigetway</module>
         <module>scholar-web</module>
     </modules>
 
